@@ -1,0 +1,65 @@
+baseURL: https://blog.simulatan.me
+title: Jakob's Blog
+languageCode: en-us
+
+theme: PaperMod
+
+enableRobotsTXT: true
+
+params:
+  author: SIMULATAN
+  ShowCodeCopyButtons: true
+
+  ShowFullTextInRSS: true
+
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
+
+  homeInfoParams:
+    Title: "Jakob's Blog"
+    Content: >
+      I'm Jakob Hofer aka SIMULATAN aka \_SIM\_ and I love to experiment with tech.
+
+
+      On this blog, I plan to publish various posts related to my work with an occasional tutorial on the side.
+
+
+      For structured information rather than writeups, check out [my wiki](https://wiki.simulatan.me).
+
+  socialIcons:
+    - name: GitHub
+      title: View source
+      url: https://github.com/SIMULATAN/blog
+    - name: Discord
+      title: Text me on Discord
+      url: https://discord.com/users/505713760124665867
+
+# the spaces are special characters to align with the HTML "whitespace"
+# suffixed by a "Powered by", hence the trailing line
+Copyright: © 2024 Jakob Hofer | Content is CC-BY unless stated otherwise |
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: wiki
+      name: Wiki
+      url: https://wiki.simulatan.me
+      weight: 40
+
