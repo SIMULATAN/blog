@@ -1,7 +1,7 @@
 ---
 title: "Reverse Engineering a LED matrix"
 date: "2024-04-01"
-description: "Analyzing a proprietary ABI to use a nieche B2B product"
+description: "Analyzing a proprietary ABI to use a niche B2B product"
 summary: "Reverse Engineering a proprietary LED Matrix ABI and making an android app for it"
 categories: ["experiments", "tech"]
 cover:
