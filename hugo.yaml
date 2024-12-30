@@ -6,6 +6,12 @@ theme: PaperMod
 
 enableRobotsTXT: true
 
+# allow rendering HTML tags in markdown
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   author: SIMULATAN
   ShowCodeCopyButtons: true
