@@ -1,6 +1,6 @@
 ---
 title: "Reverse Engineering a LED matrix"
-date: "2024-12-30"
+date: "2024-12-31"
 description: "Cracking a proprietary ABI to use a niche B2B product"
 summary: "Reverse Engineering a proprietary LED Matrix ABI and making an android app for it"
 categories: ["experiments", "tech"]
@@ -236,9 +236,10 @@ Later, I actually found 4 more devices (yes, 4!). Curiously, they were all very 
 <img loading="lazy" src="./images/rj-matrix.jpg" alt="image showing the RJ connector" width="40%"/>
 
 ## Results
-My work didn't go unnoticed, in fact, the hardware was used in several badass inventions.
+My work didn't go unused, in fact, the hardware was used in several badass inventions.
 
-## Android App
+### Android App
+The Android App can be used to control the Matrix using various communication options. You can also save configured text as a preset.
 <div style="display: flex; justify-content: center;">
 <img loading="lazy" src="./images/app-settings.png" alt="screenshot of the settings page" style="width: 33%; object-fit: contain; border-radius: 0;">
 <img loading="lazy" src="./images/app-control.png" alt="screenshot of the control page" style="width: 33%; object-fit: contain; border-radius: 0;">
@@ -246,14 +247,14 @@ My work didn't go unnoticed, in fact, the hardware was used in several badass in
 </div>
 Considering this is my first ever Android App, I'm pretty proud of it!
 
-## Portable Matrix
+### Portable Matrix
 My dad and I built a portable Matrix running on a battery.
 <div style="display: flex">
 <img loading="lazy" src="./images/stand-front.png" alt="the stand, from the front" style="width: 80%; object-fit: contain">
 <img loading="lazy" src="./images/stand-back.png" alt="the stand, from the back" style="width: 20%; object-fit: contain">
 </div>
 
-## Car
+### Car
 A friend of mine also developed a 3D-printed mount for his car.
 ![the matrix in the back of the car](./images/matrix-car-mounted.png)
 ![the car driving](./images/matrix-car.png)
