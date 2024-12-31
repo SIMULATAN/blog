@@ -235,6 +235,8 @@ Later, I actually found 4 more devices (yes, 4!). Curiously, they were all very 
 <img loading="lazy" src="./images/rj-matrix.jpg" alt="image showing the RJ connector" width="40%"/>
 
 ## Results
+The documentation of the reverse engineering effort and all the aforementioned code is Open Source and can be found here: https://github.com/SIMULATAN/matrixcontrol
+
 My work didn't go unused, in fact, the hardware was used in several badass inventions.
 
 ### Android App
